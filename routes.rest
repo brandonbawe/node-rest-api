@@ -1,0 +1,28 @@
+GET http://localhost:8000/users
+
+###
+
+GET http://localhost:8000/users/607310e9e3fee877415f6455
+
+###
+
+POST http://localhost:8000/users
+Content-Type: application/json
+
+{
+  "name": "Tyrion Lanister",
+  "email": "tyrion21@gmail.com"
+}
+
+###
+
+PATCH  http://localhost:8000/users/6073d721a487b1035ba24bb8
+Content-Type: application/json
+
+{
+  "name": "Jon Snow"
+}
+
+####
+
+DELETE  http://localhost:8000/users/607310e9e3fee877415f6455
