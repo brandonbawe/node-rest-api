@@ -4,7 +4,7 @@
   "description": "A simple REST API with node, express and mongoDB.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+     "devStart": "nodemon index.js"
   },
   "author": "Brandon Bawe",
   "license": "ISC",
